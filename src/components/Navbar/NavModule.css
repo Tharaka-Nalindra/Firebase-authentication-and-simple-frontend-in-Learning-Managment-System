@@ -68,9 +68,7 @@
     transition: color 0.3s;
 }
 
-/* NavModule.css */
 
-/* ... (previous CSS code) */
 
 @media (max-width: 768px) {
     .navbar {
