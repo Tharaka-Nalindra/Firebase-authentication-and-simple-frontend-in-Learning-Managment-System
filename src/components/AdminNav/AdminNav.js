@@ -21,9 +21,7 @@ export default function Nav() {
                 <li><a href="Login.js"><img src={profile} alt='profile'/></a></li>
             </ul>
 
-            {/* <div className="logo">
-            <a href="Login.js"><img src={profile} alt='profile'/></a>
-            </div> */}
+            
 
           </div>
         </nav>
