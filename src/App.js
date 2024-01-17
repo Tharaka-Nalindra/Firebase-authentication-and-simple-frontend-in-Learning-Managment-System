@@ -32,8 +32,6 @@ function App() {
   return (
     <div className="App">
       <Router>
-        {/* Pass the userName prop to the Nav component */}
-        {/* <Nav userName={userName} /> */}
         <Routes>
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
