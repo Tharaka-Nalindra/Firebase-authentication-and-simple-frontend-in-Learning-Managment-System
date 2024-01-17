@@ -1,6 +1,6 @@
 // Nav.js
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom
+import { Link } from 'react-router-dom'; 
 import './NavModule.css';
 import logo from '../Image/logo.jpg';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
