@@ -1,0 +1,60 @@
+body{
+    background-color: #14023A;
+}
+
+.AboutpageBody{
+    background-color: #ffff;
+    margin: 20px;
+    height: 130vh;
+    border-radius: 25px;
+    /* align-items: center; */
+}
+
+.Abouttopic{
+    width: 100%;
+    font-family: kadaway;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.Abouttopic h2{
+    justify-content: center;
+    font-family: kadaway;
+    justify-content: center;
+    color: black;
+}
+
+.AboutuniImg img{
+    width: 176vh;
+    height: 69vh;
+    margin: 25px;
+    border-radius: 25px;
+    margin-top: -4vb;
+}
+
+
+
+/* AboutUsModule.css */
+
+/* Existing styles ... */
+
+@media (max-width: 768px) {
+    .AboutpageBody {
+      margin: 10px;
+      height: auto;
+      padding: 20px;
+    }
+    
+    .AboutuniImg img {
+      width: 100%;
+      height: auto;
+      margin: 15px 0;
+    }
+    
+    .Abouttopic h2 {
+      font-size: 30px;
+    }
+  }
+  

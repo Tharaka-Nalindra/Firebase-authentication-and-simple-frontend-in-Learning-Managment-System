@@ -1,0 +1,188 @@
+body {
+  background-color: #14023A;
+  margin: 30px;
+}
+
+.Body {
+  width: 100%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  display: flex;
+  height: 90vh;
+  background: linear-gradient(to top, rgba(33, 13, 113, 0.3) 50%, rgba(33, 13, 113, 0.3) 50%), url(../Image/loin.jpg);
+  border-radius: 25px;
+  background-position: 100%;
+}
+ 
+ .innerBox {
+    min-width: 340px;
+    height: 530px;
+    width: fit-content;
+    /* background-color: #fff; */
+    background-color: rgba(8, 3, 55, 0.55);
+    padding: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-family: kadway;
+    margin-top: 10px;
+    margin-left: 40vh;
+  }
+
+  .heading{
+    font-size: 40px;
+    font-family: kadway;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+  }
+
+  .input > * {
+    margin-bottom: 30px;
+    /* border: 2px green; */
+  }
+  
+  .input input {
+    border: 2px solid #000;
+    border-radius: 25px;
+  }
+
+  ::placeholder {
+    font-family: kadway;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  
+  .footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .footer .error {
+    margin-top: -20px;
+    font-weight: bold;
+    font-size: 0.875rem;
+    color: #ff3300;
+    text-align: center;
+  }
+  
+  .footer button {
+    outline: none;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: kadway;
+    padding: 10px 16px;
+    width: 180px;
+    height: 40px;
+    transition: 100ms;
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: -10px;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  
+  .footer button:disabled {
+    background-color: gray !important;
+  }
+  
+  .footer button:hover {
+    background-color: none;
+  }
+  
+  .footer p {
+    font-weight: 700;
+    color: #000;
+  }
+  
+  .footer p span a {
+    font-weight: bold;
+    color: blue;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    text-decoration: none;
+  }
+  
+
+
+/* Signup.module.css */
+
+/* Existing styles ... */
+
+@media (max-width: 768px) {
+  .Body {
+    width: 170%;
+    margin: 0%;
+    height: 946px;
+    flex-direction: column;
+    justify-content: center;
+    /* height: 80%; */
+    background: linear-gradient(
+        to top,
+        rgba(33, 13, 113, 0.3) 50%,
+        rgba(33, 13, 113, 0.3) 50%
+      ),
+      url(../Image/loin.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .innerBox {
+    width: 80%;
+    max-width: 280px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  .input input{
+    width: 90%;
+  }
+
+  .container{
+    width: 100%;
+  }
+
+  .InputControl{
+    width: 50%;
+  }
+
+  .heading {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .footer button {
+    width: 100%;
+  }
+
+  .footer p {
+    text-align: center;
+  }
+
+  .input > * {
+    margin-bottom: 15px;
+  }
+
+  .footer button {
+    width: 50%;
+  }
+
+  .footer p {
+    text-align: center;
+  }
+}

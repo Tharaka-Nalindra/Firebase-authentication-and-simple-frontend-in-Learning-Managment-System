@@ -1,0 +1,73 @@
+body{
+    background-color: #14023A;
+}
+
+.menu{
+    background-color: #fff;
+    width: 250px;
+    height: 600px;
+    border-radius: 25px;
+    margin-left: 20px;
+}
+
+.menu img{
+    width: 30px;
+    height: 30px;
+}
+
+.menuItem li{
+    list-style: none;
+}
+
+.menuItem li a{
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Set the gap between list items to 20px */
+    padding: 21px;
+    /* border-bottom: 1px solid #ccc; */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: kadaway;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.edit{
+    margin-top: -80vh;
+    margin-left: 291px;
+    width: 1154px;
+    height: 600px;
+    background-color: #fff;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+}
+
+.course{
+    background-color: #14023A;
+    width: 180px;
+    height: 300px;
+    margin: 100px;
+    border-radius: 25px;
+    
+}
+
+.course img{
+    width: 180px;
+    height: 200px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.course h3{
+    color: #fff;
+    font-size: 20px;
+    font-family: kadaway;
+    display: flex;
+    justify-content: center; 
+    margin-top: 30px;
+}
