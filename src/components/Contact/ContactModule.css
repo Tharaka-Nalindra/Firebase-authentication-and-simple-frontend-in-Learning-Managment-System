@@ -63,9 +63,7 @@ body{
 
 
 
-/* ContactModule.css */
 
-/* Existing styles ... */
 
 @media (max-width: 768px) {
     .pageBody {
@@ -89,9 +87,7 @@ body{
       margin-left: 0px;
       margin-bottom: 30px;
       width: 100%;
-      /* flex-direction: column; */
       gap: 5px;
-      /* align-items: center; */
       display: inline-block;
     }
     
